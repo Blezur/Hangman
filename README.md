@@ -1,3 +1,3 @@
 # Hangman
 
-Created by zakrzew
+Coded by zakrzew
