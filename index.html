@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wisielec</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Caveat+Brush&subset=latin-ext" rel="stylesheet">
+		<meta charset="utf-8" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	<body>
+	
+		<div class="game-image">
+			<img id="hangman" src="img/0.png">
+		</div>
+		
+		<div class="game-content">
+			<div class="title">Wisielec</div>
+			<p id="top">Wpisz słowo lub zdanie, a następnie kliknij Gotowe.</p>
+			
+			<div id="word">
+				<input id="in" type="text"><br>
+				<input id="ready" type="button" value="Gotowe">
+			</div>
+			
+			<div id="letters"></div>
+			
+			<p id="bottom"></p>
+		</div>
+		
+		<script src="game.js"></script>
+	</body>
+</html>

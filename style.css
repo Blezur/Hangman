@@ -1,0 +1,115 @@
+*
+{
+	font-family: 'Caveat Brush';
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: black;
+	color: white;
+}
+
+.game-image
+{
+	position: absolute;
+	width: 50%;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.game-content
+{
+	position: absolute;
+	width: calc(50% - 40px);
+	top: 0;
+	left: 50%;
+	padding: 20px;
+}
+
+.title
+{
+	text-align: center;
+	font-size: 48px;
+}
+
+p
+{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#letters
+{
+	font-size: 36px;
+	text-align: center;
+	display: none;
+}
+
+input#in
+{
+	border: 3px solid white;
+	background: black;
+	color: white;
+	width: 70%;
+	text-align: center;
+	padding: 10px;
+	font-size: 24px;
+	transition: box-shadow 0.3s;
+}
+
+input#in:focus
+{
+	box-shadow: 0 0 50px white;
+}
+
+input
+{
+	border-radius: 10px;
+	outline: none;
+}
+
+input#ready
+{
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	text-align: center;
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 22px;
+	transition: background-color 0.3s, color 0.3s;
+	cursor: pointer;
+}
+
+input#ready:hover
+{
+	color: black;
+	background-color: white;
+}
+
+#word
+{
+	margin: auto;
+	text-align: center;
+}
+
+p#bottom
+{
+	margin-top: 100px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s;
+}
+
+a:hover
+{
+	color: blue;
+}
